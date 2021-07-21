@@ -13,6 +13,9 @@ body {
     margin: 0 auto;
     width: 89%;
 }
+.page-template-custom-homepage {
+    color: #8E8E93;
+}
 a {
     text-decoration: none;
 }
