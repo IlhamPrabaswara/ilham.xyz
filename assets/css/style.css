@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-    background-color: #1c1c1e;
+    background-color: #000000;
     color: #f2f2f7;
     font-size: 14px;
     line-height: 1;
@@ -40,9 +40,58 @@ ol li, ul li {
     text-align: center;
 }
 .slide-out-menu-toggle {
+    cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    padding: 20px 20px 20px 0;
+}
+.slide-out-menu {
+    background-color: #1C1C1E;
+    font-size: 14px;
+    height: 100%;
+    position: fixed;
+    width: 300px;
+    left: 0;
+    z-index: 999;
+    margin-left: -300px;
+    transition: .3s;
+}
+.slide-out-menu-show {
+    margin-left: 0;
+}
+.slide-out-menu-container {
+	padding: 70px 30px 30px;
+}
+.slide-out-menu .main-navigation {
+	display: block;
+	border-bottom: 1px solid #2C3136;
+	margin-bottom: 20px;
+}
+.slide-out-menu ul {
+    list-style: none;
+    margin-left: 0;
+}
+.main-navigation ul {
+	display: inline-block;
+	margin: 20px 0 0;
+}
+.main-navigation ul li {
+	font-size: 14px;
+	font-weight: 600;
+}
+.slide-out-menu .main-navigation ul li {
+	display: block;
+	margin: 0 0 20px;
+}
+.slide-out-menu .main-navigation ul li a {
+	color: white;
+}
+.close-menu {
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    cursor: pointer;
 }
 .about img {
     height: auto;
@@ -62,13 +111,13 @@ ol li, ul li {
     width: 100%;
 }
 .newsletter input {
-    background-color: #3a3a3c;
+    background-color: #1C1C1E;
     border: none;
     color: #8e8e93;
     padding: 11px 15px;
 }
 .newsletter button {
-    background-color: #636366;
+    background-color: #2C2C2E;
     margin: 10px 0 0;
     width: 100%;
 }

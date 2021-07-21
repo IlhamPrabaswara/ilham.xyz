@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/scripts/script.js"></script>
     <link rel="icon" href="./assets/images/IP_32.png" sizes="32x32">
     <link rel="icon" href="./assets/images/IP_192.png" sizes="192x192">
     <link rel="apple-touch-icon" href="./assets/images/IP_180.png">
@@ -14,9 +15,41 @@
 
 <body>
     <div id="page" class="site">
+        <div class="slide-out-menu"> <!-- slide-out-menu-show-->
+            <div class="close-menu" onclick="show()">
+                <svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <defs></defs>
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="close-menu" transform="translate(-4.000000, -4.000000)" fill-rule="nonzero" fill="#fff">
+                            <polygon id="Combined-Shape"
+                                transform="translate(10.000000, 10.000000) rotate(46.000000) translate(-10.000000, -10.000000) "
+                                points="9 9 3 9 3 11 9 11 9 17 11 17 11 11 17 11 17 9 11 9 11 3 9 3"></polygon>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+            <div class="slide-out-menu-container">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="menu-header-menu-container">
+                        <ul id="primary-menu" class="menu">
+                            <li id="menu-item-502" class="menu-item">
+                                <a href="#">Work</a>
+                            </li>
+                            <li id="menu-item-502" class="menu-item">
+                                <a href="#">Blog</a>
+                            </li>
+                            <li id="menu-item-502" class="menu-item">
+                                <a href="#">Hire Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
         <header class="site-header">
             <div class="site-branding">
-                <div class="slide-out-menu-toggle">
+                <div class="slide-out-menu-toggle" onclick="show()">
                     <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="20" height="2" fill="#FAFAFA" />
                         <rect y="6" width="16" height="2" fill="#FAFAFA" />
