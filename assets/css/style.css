@@ -179,6 +179,7 @@ a.read-previous-newsletter {
 input[type="email"] {
     border: none;
     border-radius: 3px;
+    font-size: 100%;
 }
 button {
     border: none;
