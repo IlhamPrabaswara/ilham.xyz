@@ -7,24 +7,20 @@
     padding: 0;
 }
 :root {
+    /* Global Colour */
     --filter: saturate(180%) blur(20px);
 
     --clr-white-100: #ffffff;
     --clr-white-200: #F2F2F7;
-    --clr-white-300: #E5E5EA;
-    --clr-white-400: #D1D1D6;
     --clr-white-500: #C7C7CC;
-    --clr-white-600: #AEAEB2;
     --clr-white-700: #8E8E93;
 
     --clr-black-100: #000000;
     --clr-black-200: #1C1C1E;
-    --clr-black-300: #2C2C2E;
-    --clr-black-400: #3A3A3C;
     --clr-black-500: #48484A;
-    --clr-black-600: #636366;
     --clr-black-700: #8E8E93;
 
+    /* Navigation Colour */
     --clr-nav-light: rgba(255, 255, 255, 0.72);
     --clr-nav-dark: rgba(29, 29, 31, 0.72);
 
@@ -34,6 +30,7 @@
     --clr-btn-light: #0071e3;
     --clr-btn-dark: #2c2c2e;
 
+    /* Light Mode */
     --background: var(--clr-white-100);
     --foreground: var(--clr-black-100);
     --nav-background: var(--clr-nav-light);
