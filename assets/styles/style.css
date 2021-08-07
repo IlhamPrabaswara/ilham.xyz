@@ -33,6 +33,7 @@
     /* Light Mode */
     --background: var(--clr-white-100);
     --foreground: var(--clr-black-100);
+    --input-text: var(--clr-white-200);
     --nav-background: var(--clr-nav-light);
     --nav-accent: var(--clr-nav-light-accent);
     --btn-background: var(--clr-btn-light);
@@ -41,6 +42,7 @@
     :root {
         --background: var(--clr-black-100);
         --foreground: var(--clr-white-100);
+        --input-text: var(--clr-black-200);
         --nav-accent: var(--clr-nav-dark-accent);
         --nav-background: var(--clr-nav-dark);
         --btn-background: var(--clr-btn-dark);
@@ -149,7 +151,7 @@ button {
     width: 100%;
 }
 .newsletter input {
-    background-color: #1C1C1E;
+    background-color: var(--input-text);
     border: none;
     color: #8e8e93;
     padding: 11px 15px;
